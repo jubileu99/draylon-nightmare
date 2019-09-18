@@ -38,7 +38,6 @@
     height: auto;
     width: auto;
     display: grid;
-    grid-auto-rows: auto;
     text-align: center;
 }
 
@@ -54,11 +53,40 @@
     display:grid;
     grid-gap: 20px;
     outline: 0;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,4fr);
 }
 
 .minutos, .horas, .segundos, .dias{
     padding: 20px;
     color: white;
     background-color: black;
+}
+
+@media(max-width: 700px){
+
+    body{
+        background-color:#A5A1A1;
+    }
+    
+    .titulo p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        color: #E1E1E1;
+        font-size: 18px;
+        padding: 20px;
+    }
+    
+    .container-horario header{
+        font-size: 16;
+    }
+    
+    .container .box .container-horario{
+        font-size: 18px;
+        grid-gap: 8px;
+        grid-template-columns: repeat(2,4fr);
+    }
+    
+    .minutos, .horas, .segundos, .dias{
+        padding: 20px;
+    }
 }
