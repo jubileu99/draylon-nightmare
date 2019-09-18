@@ -1,0 +1,1 @@
+## Será que @Draylon será capaz de aguentar até o fim do estágio? Descobriremos em breve... :ok_hand: :ok_hand:
