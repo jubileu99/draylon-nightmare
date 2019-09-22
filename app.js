@@ -14,7 +14,7 @@ const load = () => {
         document.querySelector(".minutos").innerHTML = (minutos < 10) ? "0"+minutos : minutos
         document.querySelector(".horas").innerHTML = (horas < 10) ? "0"+horas : horas
         document.querySelector(".segundos").innerHTML = (segundos < 10) ? "0"+segundos : segundos  
-    }, 100);
+    }, 1000);
     
 }
 
